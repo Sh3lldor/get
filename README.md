@@ -9,14 +9,22 @@ A little tool to store all your One-Liners.
   - [Credits](#credits)
 
 ## Pics
+`get set` - will add new command to the DB
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Sh3lldor/get/main/pics/set.png">
+</p>
+
+`get list` - will show all stored commands
 <p align="center">
   <img src="https://raw.githubusercontent.com/Sh3lldor/get/main/pics/list.png">
 </p>
 
+`get show` - will return specific command (by id or name)
 <p align="center">
   <img src="https://raw.githubusercontent.com/Sh3lldor/get/main/pics/show.png">
 </p>
 
+`get delete` - will remove specific command
 <p align="center">
   <img src="https://raw.githubusercontent.com/Sh3lldor/get/main/pics/delete.png">
 </p>

@@ -36,7 +36,7 @@ func main() {
 		},
 		{
 			Name:  "show",
-			Usage: "Show spesific command (By ID or Name)",
+			Usage: "Show specific command (By ID or Name)",
 			Action: func(c *cli.Context) {
 				commandIdentifier := c.Args().Get(0)
 				if commandIdentifier != "" {
@@ -46,7 +46,7 @@ func main() {
 		},
 		{
 			Name:  "delete",
-			Usage: "Delete spesific commnad (By ID or Name)",
+			Usage: "Delete specific commnad (By ID or Name)",
 			Action: func(c *cli.Context) {
 				commandIdentifier := c.Args().Get(0)
 				if commandIdentifier != "" {
@@ -56,7 +56,7 @@ func main() {
 		},
 		{
 			Name:  "copy",
-			Usage: "Copy spesific command to clipboard (By ID)",
+			Usage: "Copy specific command to clipboard (By ID)",
 			Action: func(c *cli.Context) {
 				commandIdentifier := c.Args().Get(0)
 				if commandIdentifier != "" {
