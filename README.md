@@ -24,7 +24,7 @@ A little tool to store all your One-Liners.
   <img src="https://raw.githubusercontent.com/Sh3lldor/get/main/pics/show.png">
 </p>
 
-`get copy` - will copy specific command to clipboard.
+`get copy` - will copy specific command to clipboard.</br>
 `get delete` - will remove specific command.
 <p align="center">
   <img src="https://raw.githubusercontent.com/Sh3lldor/get/main/pics/delete.png">
