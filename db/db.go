@@ -77,6 +77,7 @@ func GetAllCommands() {
 	commandsTable := table.NewWriter()
 	commandsTable.SetOutputMirror(os.Stdout)
 	commandsTable.SetAllowedRowLength(MAX_LEN)
+	commandsTable.SetStyle(table.StyleDouble)
 	commandsTable.AppendHeader(table.Row{"#", "Name", "Command"})
 
 	for e := arr.Front(); e != nil; e = e.Next() {
@@ -113,6 +114,7 @@ func ShowSpesificCommand(commandIdentifier string) {
 	commandsTable := table.NewWriter()
 	commandsTable.SetOutputMirror(os.Stdout)
 	commandsTable.SetAllowedRowLength(MAX_LEN)
+	commandsTable.SetStyle(table.StyleDouble)
 	commandsTable.AppendHeader(table.Row{"#", "Name", "Command"})
 	for e := arr.Front(); e != nil; e = e.Next() {
 		commandsTable.AppendRow([]interface{}{e.Value.(Command).id, e.Value.(Command).name, e.Value.(Command).command})
