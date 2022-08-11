@@ -13,6 +13,7 @@ import (
 
 // DB file
 var DB = "/.get.db"
+var MAX_LEN = 80
 
 type Command struct {
 	id      int
@@ -75,6 +76,7 @@ func GetAllCommands() {
 
 	commandsTable := table.NewWriter()
 	commandsTable.SetOutputMirror(os.Stdout)
+	commandsTable.SetAllowedRowLength(MAX_LEN)
 	commandsTable.AppendHeader(table.Row{"#", "Name", "Command"})
 
 	for e := arr.Front(); e != nil; e = e.Next() {
@@ -110,6 +112,7 @@ func ShowSpesificCommand(commandIdentifier string) {
 	}
 	commandsTable := table.NewWriter()
 	commandsTable.SetOutputMirror(os.Stdout)
+	commandsTable.SetAllowedRowLength(MAX_LEN)
 	commandsTable.AppendHeader(table.Row{"#", "Name", "Command"})
 	for e := arr.Front(); e != nil; e = e.Next() {
 		commandsTable.AppendRow([]interface{}{e.Value.(Command).id, e.Value.(Command).name, e.Value.(Command).command})
