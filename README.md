@@ -1,5 +1,5 @@
 # get
-A little tool to store all your One-Liners.
+get is a cli tool that stores all of your One-Liners.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Sh3lldor/get/main/pics/icon.png">
