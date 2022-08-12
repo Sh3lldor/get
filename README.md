@@ -1,6 +1,10 @@
 # get
 A little tool to store all your One-Liners.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Sh3lldor/get/main/pics/icon.png">
+</p>
+
 ## Table of Contents
 - [get](#get)
   - [Table of Contents](#table-of-contents)
